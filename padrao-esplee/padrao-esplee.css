@@ -62,9 +62,9 @@ h2{
     font-weight: 500;
     margin-bottom: 0.5em;}
 h1{
-    font-size: 3.4em;
+    font-size: 4.4em;
     font-weight: 500;
-    font-family: sans-serif;
+    font-family: 'espleetype',sans-serif;
     margin-bottom: 0.4em;
     line-height: 0.95em;}
 strong{
@@ -230,7 +230,8 @@ div.accordion{
     
     background-color: var(--dark-2-color);
     margin: auto;
-    width: 320px;}
+    width: 100%;
+    margin-bottom: 24px;}
     div.accordion div.header button{
         display: flex;
         justify-content: space-between;
