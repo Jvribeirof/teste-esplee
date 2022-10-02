@@ -23,7 +23,7 @@
     --light1-color:#FBF7FF;}
 @font-face {
     font-family: 'espleetype';
-    src: url('espleetype-o.otf') format('opentype');
+    src: url('alter.tt') format('truetype');
     font-weight: normal;
     font-style: normal;}
 *{
