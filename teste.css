@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'teste';
+    src: url('esplee_v3.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'teste';
+}

@@ -21,11 +21,12 @@
     --light-1-color:#ECE4F2;
     --light0-color:#F8F0FF;
     --light1-color:#FBF7FF;}
-@font-face {
-    font-family: 'espleetype';
-    src: url('alter.tt') format('truetype');
-    font-weight: normal;
-    font-style: normal;}
+    @font-face {
+        font-family: 'teste';
+        src: url('espleetype-o.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
 *{
     margin: 0px;
     padding: 0px;
@@ -64,7 +65,7 @@ h2{
 h1{
     font-size: 4.4em;
     font-weight: 500;
-    font-family: 'espleetype',sans-serif;
+    font-family: 'teste',sans-serif;
     margin-bottom: 0.4em;
     line-height: 0.95em;}
 strong{
