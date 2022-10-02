@@ -228,7 +228,7 @@ div.accordion{
     display: flex;
     flex-direction: column;
     
-    background-color: var(--dark-2-color);
+    background-color: var(--dark0-color);
     margin: auto;
     width: 100%;
     margin-bottom: 24px;}
@@ -253,6 +253,7 @@ div.accordion{
             width: 100%;}
         div.accordion div.content-ac p{
             color: var(--light1-color);
+            text-align: justify;
             padding: 24px 24px;
             margin: 0px;}
         .rotate{
