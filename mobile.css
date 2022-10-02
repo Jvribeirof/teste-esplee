@@ -1,0 +1,173 @@
+/*CONFIGS DO HEADER*/
+header{
+    background-image: url(../imagens/);
+}
+#header-headings{
+    text-align: center;}
+#header-headings strong, #pt5 strong{
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'espleetype', sans-serif;
+    margin-bottom: 0.4em;
+    line-height: 0.95em;
+    color: var(--green-1-color);}
+.js-fade{
+    opacity: 0;
+}
+#header-headings h5{
+    font-weight: 400;
+    margin-bottom: 100px;}
+#seta {
+    padding: 80px;
+    display: flex;
+    justify-content: center;}
+    #seta img{
+        width: 48px;
+        animation: updown .8s infinite alternate;}
+section div.tag h2{
+    font-size: 1em;
+    background-color: var(--green0-color);
+    color: var(--light1-color);
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 5px;}
+    section div.content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    section div.content .right{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+        .right .item{
+            display: flex;
+            flex-direction: column;
+
+            background-color: var(--light0-color);
+            padding: 20px 32px;
+            border-radius: 4px;
+            box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.104);
+        }
+            .item .num{
+                color: var(--green0-color);
+                font-family: 'espleetype', sans-serif;
+                font-size: 4.4em;
+                margin-bottom: 0em;
+                line-height: 0.95em;
+            }
+            .item p{
+                margin-bottom: 0em;}
+#pt2{
+    background-color: var(--dark0-color);
+    color: var(--light1-color);
+    text-align: center;
+}
+    #pt2 .content{
+        padding-top: 48px;
+    }
+        #pt2 h2{
+            font-size: 2.369em;
+        }
+        #pt2 .cases{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+            #pt2 .case{
+                background-color: var(--dark-2-color);
+                width: 100%;
+                height: 360px;
+                position: relative;
+            }
+                #pt2 .mais-info{
+                    position: absolute;
+                    right: 0px;
+                    top: 50%;
+                    transform: translate(30%, -50%);
+                }
+                    #pt2 img{
+                        width: 48px;
+                        background-color: var(--green-1-color);
+                        padding: 12px 4px;
+                        border-radius: 4px;
+                    }
+                        #pt2 img:hover{
+                            animation: seta 1s infinite alternate-reverse;
+                        }
+    #pt2 .bottom{
+        border-top: 32px solid var(--dark0-color);
+    }
+#pt3 .help{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.help p{
+    font-weight: 500;
+    margin: 0px;
+}
+.help img{
+    width: 24px;
+}
+#pt3 .itens{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+    #pt3 .item{
+        background-color: var(--light0-color);
+        width: 56px;
+        height: 56px;
+        transform: rotate(45deg);
+    }
+        #pt3 .item:hover{
+            background-color: var(--light-1-color);
+        }
+            #pt3 .item p{
+                font-weight: 600;
+                transform: rotate(-45deg);
+                position: absolute;
+                top: 30%;
+                left: 30%;
+            }
+
+#pt4{
+    background-color: var(--red0-color);
+    color: var(--light1-color);
+}
+#pt4 .bottom{
+    border-top: 32px solid var(--red0-color);
+}
+
+#pt5{
+    text-align: center;
+    padding: 80px 0px;
+}
+
+#pt6 .top {
+    border-bottom: 32px solid var(--dark0-color);
+}
+
+#pt6, #pt7{
+    background-color: var(--dark0-color);
+    color: var(--light1-color);
+}
+#pt6 h2, #pt7 h2{
+    font-size: 1.777em;
+    font-weight: 500;
+    margin-bottom: 0.6em;
+    text-align: center;
+}
+footer{
+    background-color: var(--dark0-color);
+    color: var(--light1-color);
+}
+    .icon-footer{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 1px solid var(--light1-color);
+    }
