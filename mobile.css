@@ -7,7 +7,7 @@ header{
 #header-headings strong, #pt5 strong{
     font-size: 1em;
     font-weight: 500;
-    font-family: 'espleetype', sans-serif;
+    font-family: sans-serif;
     margin-bottom: 0.4em;
     line-height: 0.95em;
     color: var(--green-1-color);}
