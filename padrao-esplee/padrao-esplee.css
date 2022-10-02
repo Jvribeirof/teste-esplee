@@ -29,7 +29,13 @@
     font-family: 'Roboto',sans-serif;}
 body, html{
     width: 100%;}
-
+    
+@font-face {
+    font-family: 'esplee-font';
+    src: url('esplee_v3.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 /*CONFIGURAÇÃO DOS TEXTOS-------------------------------*/
 p{
     font-size: 1em;
